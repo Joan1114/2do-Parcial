@@ -16,8 +16,8 @@ namespace ConsoleApplication13
             int voto4 = 0;
 
             int rnd; 
-            string [] candidatos = { "Lui Jabinadel", "Danilo Mejia", "El lidel", "El Penco" };
-            string[] partidos = { "Partido de la Liberacion Dominicana (PLD)", "Partido Revolucionario Moderno (PRM)", "Pueblo la Fuerza (PF)", "La Fuerza del Penco (LFP)" };
+            string [] candidatos = { "Alexander Matias", "Emil Hidalgo", "Gabriel Mora", "Ronny Rodriguez" };
+            string[] partidos = { "Partido Democrata Supremo (PDS)", "Partido de las Focas Dominicanas (PFD)", "La Fuerza del Tigre (FT)", "Partido de Capitan America (PCA)" };
             int[] funda = { 1983, 1954, 2014, 2020 };
 
             for (int i = 0; i <= 3; i++)
@@ -34,20 +34,16 @@ namespace ConsoleApplication13
                 rnd = aleatorio.Next(1, 5);
 
                 if (rnd == 1)
-                {
-                    voto1++;
+                {voto1++;
                 }
                 if (rnd == 2)
-                {
-                    voto2++;
+                {voto2++;
                 }
                 if (rnd == 3)
-                {
-                    voto3++;
+                {voto3++;
                 }
                 if (rnd == 4)
-                {
-                    voto4++;
+                {voto4++;
                 }
             }
 
